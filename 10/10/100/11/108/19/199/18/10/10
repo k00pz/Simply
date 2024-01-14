@@ -1,0 +1,186 @@
+
+--------------------intro--------------------
+
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualRoblox/Roblox/main/UI-Libraries/Visual%20Command%20UI%20Library/Source.lua', true))()
+
+local Window = Library:CreateWindow({
+    Name = 'Made by Fsploit. And the PxyPixel boiz team',
+    IntroText = 'Simple Hub Universal Combat',
+    IntroIcon = 'rbxassetid://2292912518',
+    IntroBlur = true,
+    IntroBlurIntensity = 15,
+    Theme = Library.Themes.dark,
+    Position = 'bottom',
+    Draggable = true,
+    Prefix = ';'
+})
+
+-------------------script------------------
+
+-- by Fsploit and Pie x team
+-- yall are skidded users get tf out
+
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1
+notifSound.Volume = 0.35
+notifSound.SoundId = "rbxassetid://1167155503"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+
+
+local SimpleUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/simple-hub/src.lua"))()
+
+local Main = SimpleUi:create('Universal')
+
+local Menu = Main:Menu('Main')
+
+----combat---
+
+local Page = Menu:Page()
+
+Page:Label('Combat Section')
+
+Page:Button('Aimbot',false,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Aimbot/main/Aimbot-by-fsploit"))()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Big hitbox',false,function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vk5xsDiB"))()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('shift lock',false,function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Alt/alt/PermShiftlockAlt'))()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Fly script',false,function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/k00pz/Flying/main/Fly-gui'))()
+    print("By Fsploit & pie x team")
+end)
+
+-----visual---
+
+local Page = Menu:Page()
+
+Page:Label('Visual Section')
+
+Page:Button('Esp [ high end ]',false,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Tracers/main/Esp"))()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Esp [ low end ]',false,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/main/ESP/Radar/Example"))()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Phonk vol 1',false,function()
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1
+notifSound.Volume = 0.35
+notifSound.SoundId = "rbxassetid://14145621151"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Phonk vol 2',false,function()
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1
+notifSound.Volume = 0.35
+notifSound.SoundId = "rbxassetid://14145627857"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Phonk vol 3',false,function()
+
+local notifSound = Instance.new("Sound",workspace)
+notifSound.PlaybackSpeed = 1
+notifSound.Volume = 0.35
+notifSound.SoundId = "rbxassetid://14145623221"
+notifSound.PlayOnRemove = true
+notifSound:Destroy()
+    print("By Fsploit & pie x team")
+end)
+
+local Menu = Main:Menu('Settings')
+
+local Page = Menu:Page()
+
+Page:Label('Credits Section')
+
+Page:Button('Made by Fsploit',false,function()
+
+    print("Made by Fsploit ")
+end)
+
+Page:Button('the Pyxpixel studioz team',false,function()
+
+    print("the pie x team") 
+end)
+
+Page:Button('Bl423 aka blaze',false,function()
+
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Vien',false,function()
+
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Robin aka Showcaser',false,function()
+
+    print("By Fsploit & pie x team")
+end)
+
+Page:Button('Soulzx Aka new dev',false,function()
+
+    print("By Fsploit & pie x team")
+end)
+
+local Page = Menu:Page()
+
+Page:Label('Scripts Section')
+
+Page:Button('Pie X executer',false,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Brandnew-ahh-ked/main/the-first-executer-from-pxypixel"))()
+    print("Made by Fsploit ")
+end)
+
+Page:Button('Hyperion blade ball',false,function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Hyperion5/main/69Hyperion"))()
+    print("Made by Fsploit ")
+end)
+
+Page:Button('Pie x blade ball 0.2',false,function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XSVuuGBA"))()
+    print("Made by Fsploit ")
+end)
+
+Page:Button('Pie x blade ball 0.1 old',false,function()
+loadstring(game:HttpGet("https://pastefy.app/UEbnESuD/raw"))()
+    print("Made by Fsploit ")
+end)
+
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Simple hub!", Description = "This only works on combat games like arsenal and other etc"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Simple hub!", Description = "Made by Fsploit & Pyxpixel boiz"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
